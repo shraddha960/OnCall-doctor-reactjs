@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+.d-flex{
+    position: relative;
+}
+
+.container{
+    display: flexbox;
+    flex-direction: row;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    height: 100%;
+    align-content: center;
+    }
+    
+    .card{
+    height: 370px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: #6c757dba !important;
+    padding: 17px;
+    }
+
+    .login-box{
+        margin: 80px auto;
+    }
+    
+    .social_icon span{
+    font-size: 60px;
+    margin-left: 10px;
+    color: #FFC312;
+    }
+    
+    .social_icon span:hover{
+    color: white;
+    cursor: pointer;
+    }
+    
+    .card-header h3{
+    color: white;
+    }
+    
+    .social_icon{
+    position: absolute;
+    right: 20px;
+    top: -45px;
+    }
+    
+    .input-group-prepend span{
+        margin-right: -1px;
+    width: 50px;
+    background-color: #FFC312;
+    color: black;
+    border:0 !important;
+    }
+    
+    input:focus{
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;
+    
+    }
+    
+    .remember{
+    color: white;
+    }
+    
+    .remember input
+    {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+    }
+    
+    .login_btn{
+    color: black;
+    background-color: #FFC312;
+    width: 100px;
+    margin-right: 2px;
+    margin-top: 6px;
+    }
+    
+    .login_btn:hover{
+    color: black;
+    background-color: white;
+    }
+    
+    .links{
+    color: #ffc107;
+    }
+    
+    .links a{
+    margin-left: 4px;
+    }
+    
+    /* .input-group1 {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+        width: 100%;
+    }
+    .form-group1 {
+        margin-bottom: 1rem;
+    } */
+
+    /* .form-group5{
+    position: relative;
+    width: 1%;
+    margin-bottom: 0px;
+    flex: 1 1 auto;
+    } */
+
+    .icons-btn{
+        width: 22px;
+    }
+
+    .icons-btn::before{
+        display: inline-block;
+        text-align: center;
+        width: 22px;
+      }
+
+    .input-group {
+        width: 100%;
+      }
+
+      .login-btn {
+        display: flex;
+        justify-content: flex-end;
+      }
+      
+      /* .card-footer {
+         margin-top: 30px; 
+        text-align: center;
+        padding-top: 0px;
+      }  */
+     .form-control4{
+         width: 85%;
+         padding-top: 8px;
+         font-size: 18px;
+         border: aliceblue;
+     }
+
+     .row {
+         margin-left: -14px;
+     }
+
+     .errorMsg {
+        color: #cc0000;
+        margin-bottom: -9px;
+        height: 18px;
+      }
